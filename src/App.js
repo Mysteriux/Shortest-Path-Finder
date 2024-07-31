@@ -42,7 +42,7 @@ const App = () => {
 
   return (
     <div className='mainContainer'>
-      <div className='projectHeader'>No Way</div>
+      <div className='projectHeader'>Shortest-Path-Finder</div>
 
       <div className='Maps'>
         <div className='satMap'>
