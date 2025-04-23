@@ -2,18 +2,6 @@ import React from 'react'
 import './routes.css';
 
 const Routes = (props) => {
-    // return (
-    //     (<ul>
-    //         {props.paths.map((items) => (
-    //             <Path eachPath={items} />
-    //         ))}
-    //     </ul>)
-    // )
-
-
-    // let places = props.dataPoint.path;
-
-    // console.log(places);
     return (
         <div className='pathAnswer'>
             <div className='source'>

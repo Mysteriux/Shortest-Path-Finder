@@ -1,9 +1,7 @@
-
-import sys
-from flask_cors import CORS, cross_origin
+from flask_cors import CORS
 from collections import defaultdict
 from heapq import heappush, heappop
-from flask import Flask, request, jsonify, send_from_directory
+from flask import Flask, jsonify
 
 app = Flask(__name__, static_folder='../frontend/build', static_url_path='')
 cors = CORS(app)
