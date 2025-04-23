@@ -6,7 +6,8 @@ from flask import Flask, jsonify
 app = Flask(__name__, static_folder='../frontend/build', static_url_path='')
 cors = CORS(app)
 
-cors = CORS(app, origins=['http://localhost:3000'])
+# Remove one of the CORS declarations and only keep this:
+cors = CORS(app, origins=["https://shortest-path-finder-delta.vercel.app/"])  # Replace with your Vercel URL
 
 
 @app.route('/')
